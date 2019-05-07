@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="PROD Test(failed)">
+    <parameter name="browser" value="GC"/>
+    <classes>
+      <class name="com.sapient.it.Applitools.AlfaRomeoApplitools">
+        <methods>
+          <include name="jeepSuite"/>
+          <include name="initialSetUp"/>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.sapient.it.Applitools.AlfaRomeoApplitools -->
+    </classes>
+  </test> <!-- PROD Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

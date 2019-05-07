@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="PROD Test">
+		<parameter name="browser" value="GC" />
+		<classes>
+			<class name="com.sapient.it.Applitools.JeepSuiteApplitools" />
+		</classes>
+	 </test>
+	 <!-- <test name="TEST1 Test">
+		<parameter name="browser" value="GC1" />
+		<classes>
+			<class name="com.sapient.it.Applitools.AlfaRomeoApplitools" >
+			<methods>
+       			<include name="chryslerTest" />
+       			<include name="chryslerTest1" />
+      		</methods>
+      		</class>
+		</classes>
+	 </test> -->
+</suite> <!-- Suite -->
