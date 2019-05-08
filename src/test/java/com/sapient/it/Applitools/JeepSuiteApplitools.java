@@ -36,7 +36,7 @@ public class JeepSuiteApplitools {
 		eyes.setApiKey("a39B91bM19NMvdkaWFMecVDbotqn110HR1P6nP8P8amOc110");
 		eyes.setForceFullPageScreenshot(true);
 		eyes.setStitchMode(StitchMode.CSS);
-		eyes.open(driver, "jeep_usa", "JeepSuiteForWindows", new RectangleSize(900, 600));
+		eyes.open(driver, "jeep_usa1", "JeepSuiteForWindows1", new RectangleSize(900, 600));
 		while (iterator.hasNext()) {
 			str = iterator.next();
 			for (int i = 0; i < str.length; i++) {
